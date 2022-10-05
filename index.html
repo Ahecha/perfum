@@ -17,7 +17,7 @@
 
     body {
       background-color:hsl(30, 38%, 92%);
-      padding: 2%;
+      padding: 4% 2% 2% 2%;
       display: flex;
       align-items: center;
       flex-direction: column;
@@ -29,12 +29,9 @@
       width: auto;
       max-width: auto;
       max-height: auto;
+
     }
 
-    p {
-      font-size: 14px;
-      
-    }
 
     button {
     background-color: hsl(158, 36%, 37%);
@@ -57,22 +54,34 @@
     .text-container {
       background-color:  hsl(0, 0%, 100%);
       padding: 5%;
+
     }
 
     .img-text {
-      font-size: 0.7rem;
-      padding-top: 2%;
+      font-size: 0.7rem; 
 
     }
 
+    .perfum-name {
+      font-size: 2rem;
+      padding: 3% 0 3% 0%;
+
+    }
+
+    .subtitle {
+      font-size: 14.2px;
+    }
+
     .price-one {
-      font-size: 1.5rem;
+      font-size: 2rem;
       color: hsl(158, 36%, 37%);
 
     }
 
     .price-container {
       display: flex;
+      padding: 3% 0 3% 0%;
+
     }
 
     .price-two {
@@ -80,18 +89,25 @@
       font-size: 0.7rem;
       align-self: center;
       margin-left: 6%;
+      font-family: Fraunces;
 
     }
 
     .img-text, .subtitle {
       font-family: Montserrat;
+      padding: 3% 0 3% 0%;
 
     }
 
-    .perfum-name, .price-one, .price-two, .button-text {
+    .perfum-name, .price-one {
       font-family: Fraunces;
       font-weight: bold;
 
+    }
+
+    .button-text {
+      font-family: Fraunces;
+      font-weight: 700;
     }
 
 
@@ -101,15 +117,15 @@
 </head>
 <body>
   <div class="container">
-<img src="./images/image-product-mobile.jpg" alt="Gabrielle Essence Eau De Parfum">
+<img src="https://raw.githubusercontent.com/Ahecha/perfum/main/image-product-mobile.jpg" alt="Gabrielle Essence Eau De Parfum">
 
 <div class="text-container">
   <div class="img-text">P E R F U M E</div>
   
-  <p class="perfum-name">Gabrielle Essence Eau De Parfum</p>
+  <div class="perfum-name">Gabrielle Essence Eau De Parfum</div>
 
-  <p class="subtitle">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-    Perfumer-Creator for the House of CHANEL.</p>
+  <div class="subtitle">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+    Perfumer-Creator for the House of CHANEL.</div>
 
  <div class="price-container">
   <div class="price-one">$149.99</div>
