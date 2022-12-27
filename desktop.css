@@ -1,4 +1,4 @@
-*, *::before, *::after {
+* {
   box-sizing: border-box;
 }
 
@@ -47,7 +47,7 @@ button {
 }
 
 .perfum-name {
-  font-size: 2rem;
+  font-size: 4vh;
   padding: 3% 0 3% 0%;
 }
 
@@ -101,7 +101,7 @@ a {
   color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 440px) {
 
   body { 
     width: 100%; 
@@ -130,5 +130,7 @@ a {
     width: 100%;
     
   }
+
+
 
 }

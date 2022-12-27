@@ -7,7 +7,7 @@ function myFunction(x) {
   }
 }
 
-let x = window.matchMedia("(max-width: 375px)")
+let x = window.matchMedia("(max-width: 440px)")
 myFunction(x) // Call listener function at run time
 x.addListener(myFunction)
 
